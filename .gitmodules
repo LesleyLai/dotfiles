@@ -7,3 +7,12 @@
 [submodule "emacs.d"]
 	path = emacs.d
 	url = https://github.com/LesleyLai/emacs.d
+[submodule "alias-tips"]
+	path = zsh/oh-my-zsh-custom/plugins/alias-tips
+	url = https://github.com/djui/alias-tips
+[submodule "zsh-completions"]
+	path = zsh/oh-my-zsh-custom/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions
+[submodule "powerlevel9k"]
+	path = zsh/oh-my-zsh-custom/themes/powerlevel9k
+	url = https://github.com/bhilburn/powerlevel9k
