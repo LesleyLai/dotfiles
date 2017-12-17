@@ -1,0 +1,27 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    #~/.dotfiles: ''
+    ~/.tern-config: js/tern-config
+    ~/.emacs.d:
+      force: true
+      path: emacs.d
+    ~/.zshrc:
+      force: true
+      path: zsh/zshrc
+    ~/.oh-my-zsh:
+      force: true
+      path: zsh/oh-my-zsh
+    ~/.gitconfig:
+      force: true
+      path: git/gitconfig
+    #~/.tmux.conf: tmux.conf
+    #~/.vim: vim
+    #~/.vimrc: vimrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
