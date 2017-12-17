@@ -16,7 +16,7 @@
     ~/.oh-my-zsh:
       force: true
       path: zsh/oh-my-zsh
-    ~/.oh-my-zsh/custom:
+    ~/.zsh_custom:
       force: true
       path: zsh/oh-my-zsh-custom
     ~/.gitconfig:
