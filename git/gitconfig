@@ -1,3 +1,7 @@
 [user]
-	email = laisililai@live.cn
-	name = Lesley Lai
+email = laisililai@live.cn
+name = Lesley Lai
+
+[github]
+user = LesleyLai
+token = token
