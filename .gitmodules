@@ -16,3 +16,6 @@
 [submodule "powerlevel9k"]
 	path = zsh/oh-my-zsh-custom/themes/powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k
+[submodule "zsh/oh-my-zsh-custom/plugins/zsh-autosuggestions"]
+	path = zsh/oh-my-zsh-custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
