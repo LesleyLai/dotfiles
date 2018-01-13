@@ -1,0 +1,38 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Sets how many lines of history VIM has to remember
+set history=500
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => UI
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Ignore case when searching
+set ignorecase
+
+" When searching try to be smart about cases 
+set smartcase
+
+" Highlight search results
+set hlsearch
+
+" Incremental search
+set incsearch
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Files, backups
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Turn backup off
+set nobackup
+set nowb
+set noswapfile 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Keybindings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" remap h to insert and use ijkl for inverse T cursor movement
+noremap h i
+noremap i k
+noremap k j
+noremap j h
