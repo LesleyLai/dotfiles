@@ -28,6 +28,9 @@
     ~/.vimrc:
       force: true
       path: vim/vimrc
+    ~/Templates:
+      force: true
+      path: Templates
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
