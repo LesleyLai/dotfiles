@@ -2,5 +2,8 @@
         email = lesley@lesleylai.info
         name = Lesley Lai
 
+[core]
+        editor = emacs
+
 [credential]
-	helper = cache
+        helper = cache
