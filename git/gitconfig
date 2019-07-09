@@ -8,7 +8,9 @@
 [credential]
         helper = cache
 
-
 [alias]
         graph = log --graph --oneline --boundary --decorate=short
         unstage = reset HEAD --
+
+[status]
+        short = true
