@@ -22,6 +22,9 @@
     ~/.gitconfig:
       force: true
       path: git/gitconfig
+    ~/.gitignore:
+      force: true
+      path: git/gitignore
     ~/.tmux.conf:
       force: true
       path: tmux/tmux.conf

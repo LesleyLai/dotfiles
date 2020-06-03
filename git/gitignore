@@ -1,0 +1,21 @@
+# Node
+npm-debug.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# vi
+*~
+
+# General
+log/
+*.log
+
+# JetBrain
+.idea/
+
+## Clion
+cmake-build-*

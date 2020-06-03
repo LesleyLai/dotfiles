@@ -4,6 +4,7 @@
 
 [core]
         editor = emacs
+	excludesfile = /home/lesley/.gitignore
 
 [credential]
         helper = cache
