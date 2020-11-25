@@ -98,6 +98,8 @@ alias zshrc='$EDITOR ~/.zshrc'
 
 alias distribution='cat /etc/*-release'
 
+# typos
+alias gut='git'
 
 ####
 # Safty aliases
