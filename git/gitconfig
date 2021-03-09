@@ -3,7 +3,7 @@
         name = Lesley Lai
 
 [core]
-        editor = emacs
+	editor = emacsclient -t --alternate-editor=emacs
 	excludesfile = /home/lesley/.gitignore
 
 [credential]
