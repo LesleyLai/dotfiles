@@ -142,3 +142,6 @@ if [ -x "$(command -v eza)" ]; then
     alias la='eza --long --all --group --group-directories-first'
     alias lx='eza -lbhHigUmuSa@ --time-style=long-iso --git --color-scale --color=always --group-directories-first --icons'
 fi
+
+# http server
+alias http-server='npx http-server'
