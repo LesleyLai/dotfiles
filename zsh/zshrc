@@ -29,7 +29,7 @@ eval "$(starship init zsh)"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
- DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -91,8 +91,6 @@ alias c="clear"
 alias h="history"
 alias su='sudo -i'
 
-alias scala='jupyter console --kernel scala'
-
 alias path='echo -e ${PATH//:/\\n}'
 alias zshrc='$EDITOR ~/.zshrc'
 
@@ -134,3 +132,13 @@ vterm_printf(){
         printf "\e]%s\e\\" "$1"
     fi
 }
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+if [ -x "$(command -v eza)" ]; then
+    alias ls='eza --color=always --group-directories-first --icons'
+    alias ll='eza -la --icons --octal-permissions --group-directories-first'
+    alias l='eza -bGF --header --git --color=always --group-directories-first --icons'
+    alias llm='eza -lbGd --header --git --sort=modified --color=always --group-directories-first --icons'
+    alias la='eza --long --all --group --group-directories-first'
+    alias lx='eza -lbhHigUmuSa@ --time-style=long-iso --git --color-scale --color=always --group-directories-first --icons'
+fi
