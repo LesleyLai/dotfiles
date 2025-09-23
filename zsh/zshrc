@@ -9,8 +9,7 @@ export ZSH=~/.oh-my-zsh
 
 # ZSH_THEME="robbyrussell"
 
-# Use Starship as shell theme
-eval "$(starship init zsh)"
+eval "$(oh-my-posh init zsh)"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

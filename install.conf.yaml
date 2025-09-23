@@ -34,9 +34,6 @@
     ~/Templates:
       force: true
       path: Templates
-    ~/.config/starship.toml:
-      force: true
-      path: starship/starship.toml
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
