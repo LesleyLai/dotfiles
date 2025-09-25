@@ -34,6 +34,9 @@
     ~/Templates:
       force: true
       path: Templates
+    ~/.config/oh-my-posh.json:
+      force: true
+      path: oh-my-posh/oh-my-posh.json
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

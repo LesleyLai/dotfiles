@@ -9,7 +9,7 @@ export ZSH=~/.oh-my-zsh
 
 # ZSH_THEME="robbyrussell"
 
-eval "$(oh-my-posh init zsh)"
+eval "$(oh-my-posh init zsh --config '~/.config/oh-my-posh.json')"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
